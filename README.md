@@ -17,7 +17,7 @@ After that, go to the Discord developer portal: [here](https://discord.com/devel
 
 Then go through the setup process, and reset the bot token and save it somewhere (in the `.env.example`, and then rename it to `.env`)
 
-Next, add the bot to your server with `Read Messages` intenet, and `Manage Messages` permission (so it can delete the bad url)
+Next, add the bot to your server with `Read Messages` intenet, and `Manage Messages`  and `Send Messages` permission (so it can delete the bad url)
 
 Then feel free to customize `system_settings.py` to your liking (there are instructions in there), and also make a new venv with `python3 -m venv .venv` (or just `python` on Windows)
 
